@@ -1,0 +1,26 @@
+{
+  "name": "data_structures_and_algorithms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CardinalWolsey/data_structures_and_algorithms.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CardinalWolsey/data_structures_and_algorithms/issues"
+  },
+  "homepage": "https://github.com/CardinalWolsey/data_structures_and_algorithms#readme",
+  "devDependencies": {
+    "chai": "^3.4.0",
+    "mocha": "^2.3.3"
+  }
+}
