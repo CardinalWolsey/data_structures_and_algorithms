@@ -66,9 +66,21 @@ describe('the unshift method', function() {
 });
 
 describe('the unique method', function() {
-  it('should return an array with no repeating values');
-})
+  before('set the test array', function() {
+    this.testArray = [1, 1, 2, 2, 2, 3, 4, 4]
+  })
+  it('should return an array with no repeating values', function() {
+    expect(unique(this.testArray)).to.have.length(4);
+    expect(unique(this.testArray)).to.eql([1, 2, 3, 4]);
+  });
+});
 
 describe('the frequency2 method', function() {
-  it('shgould determine the most frequently used character in an array');
+  before('set the test array', function() {
+    this.testArray = ['hi', 'hello', 'hey'];
+  });
+  it('shgould determine the most frequently used character in an array', function() {
+    expect(frequency2(this.testArray)).to.have.length(1);
+    expect(frequency2(this.testArray)).to.eql('h');
+  });
 })

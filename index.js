@@ -7,7 +7,6 @@ var frequency2 = require(__dirname + '/lib/frequency2');
 
 var testArray = [2, 3, 4, 5];
 
-
 pop(testArray);
 console.log(testArray);
 
@@ -21,9 +20,7 @@ unshift(testArray);
 console.log(testArray);
 
 var testArray2 = [1, 1, 2, 3, 4, 4, 5, 9]
-
 console.log(unique(testArray2));
 
 var testArray3 = ['hi', 'hello', 'hey'];
-
 console.log(frequency2(testArray3));
